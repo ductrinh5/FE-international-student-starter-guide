@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.right-bar {
+  flex: 1;
+  background-color: #fafafa;
+}

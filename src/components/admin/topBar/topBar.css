@@ -1,0 +1,31 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #171717;
+  color: #fff;
+  padding: 5px 16px;
+}
+
+.topBar-left,
+.topBar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cms-title-icon {
+  background-color: #525252;
+  margin: 10px;
+  height: 32px;
+  width: 32px;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cms-title-text {
+}

@@ -1,0 +1,194 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+.container > div {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.5px solid #e5e7eb;
+}
+
+.most-searched-guides,
+.most-searched-places {
+  grid-column: span 2;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.main-description {
+  font-size: 14px;
+  margin: 10px;
+}
+
+.recent-activities {
+  grid-column: span 4;
+}
+
+.container > div > img {
+  size: 20px;
+}
+
+.total-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.icon {
+  size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container {
+  background-color: #e5e7eb;
+  border-radius: 100%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card styling for the three main sections */
+.most-searched-guides,
+.most-searched-places,
+.recent-activities {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+/* Guide and Place items styling */
+.guide-list,
+.place-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guide-item,
+.place-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.guide-name,
+.place-name {
+  font-size: 14px;
+  color: #374151;
+  flex-shrink: 0;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #6b7280;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progress-value {
+  font-size: 12px;
+  color: #374151;
+  font-weight: 500;
+  min-width: 40px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Recent activities styling */
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.activity-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-text {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.activity-time {
+  font-size: 12px;
+  color: #9ca3af;
+}
